@@ -48,7 +48,7 @@
 
 -   `"style/fullscreen": false`
 
--   软件中默认英文模式
+-   单独软件中默认英文模式
 
    ```text
    app_options/photoshop.exe:
@@ -60,6 +60,9 @@
 ## [3] luna_pinyin_simp.custom.yaml
 
 >   自定义输入法（luna_pinyin_simp改为使用的输入法）
+>
+>   -   符号快速输入
+>   -   默认英文输入
 
 ### 1）特殊符号快速输入
 
