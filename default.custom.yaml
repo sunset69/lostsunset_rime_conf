@@ -5,5 +5,12 @@ customization:
   modified_time: "Sun Nov 21 11:31:56 2021"
   rime_version: 1.5.3
 patch:
+  menu/page_size: 5
   schema_list:
     - {schema: luna_pinyin_simp}
+  ascii_composer/switch_key: 
+    Caps_Lock: clear
+    Shift_L: commit_code
+    Control_L: commit_code
+    Shift_R: inline_ascii
+    Control_R: inline_ascii
