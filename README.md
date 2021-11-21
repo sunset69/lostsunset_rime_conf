@@ -25,6 +25,19 @@
         - {accept: "Control+Shift+1", select: noop, when: always}
     ```
 
+-   后选词
+
+    ```yaml
+    key_binder/bindings:
+      - {accept: "Control+Shift+1", select: noop, when: always}
+      - {accept: "bracketleft", send: Page_Up, when: paging}
+      - {accept: "bracketright", send: Page_Down, when: has_menu}
+      - {accept: semicolon, send: 2, when: has_menu}
+      - {accept: apostrophe, send: 3, when: has_menu}
+      # - {accept: "Control+p", send: Up, when: composing}
+      # - {accept: "Control+n", send: Down, when: composing}
+    ```
+
     
 
 ## [2] weasel.custom.yaml
@@ -96,5 +109,5 @@ patch:
 
 sirls:http://sirlis.cn/rime-shift-switch-zh-en/
 
-[来自一个小白的rime定制指南](https://www.zhihu.com/column/c_1176886232608600064)
+符号定制：[来自一个小白的rime定制指南](https://www.zhihu.com/column/c_1176886232608600064)
 

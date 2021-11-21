@@ -14,6 +14,11 @@ patch:
     # Control_L: commit_code
     Shift_R: inline_ascii
     # Control_R: inline_ascii
-  key_binder:
-    bindings:
-      - {accept: "Control+Shift+1", select: noop, when: always}
+  key_binder/bindings:
+    - {accept: "Control+Shift+1", select: noop, when: always}
+    - {accept: "bracketleft", send: Page_Up, when: paging}
+    - {accept: "bracketright", send: Page_Down, when: has_menu}
+    - {accept: semicolon, send: 2, when: has_menu}
+    - {accept: apostrophe, send: 3, when: has_menu}
+    # - {accept: "Control+p", send: Up, when: composing}
+    # - {accept: "Control+n", send: Down, when: composing}
