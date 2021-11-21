@@ -14,3 +14,6 @@ patch:
     # Control_L: commit_code
     Shift_R: inline_ascii
     # Control_R: inline_ascii
+  key_binder:
+    bindings:
+      - {accept: "Control+Shift+1", select: noop, when: always}

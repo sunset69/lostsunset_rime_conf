@@ -5,12 +5,27 @@
 >   -   输入框待选项个数
 >   -   ctrl、shift 的切换键效果
 >   -   标点符号的映射
+>   -   添加/去除快捷键
 
 - `menu/page_size: 5`：设置后选词个数为5
 
 - `ascii_composer/switch_key:`：ctrl shift 切换键效果
 
 - `punctuator/half_shape:` ：半角修改为中文标点
+
+- 去除快捷键
+
+    >   accept：接受的快捷键
+    >
+    >   noop：表示无操作
+
+    ```yaml
+    key_binder:
+      bindings:
+        - {accept: "Control+Shift+1", select: noop, when: always}
+    ```
+
+    
 
 ## [2] weasel.custom.yaml
 
@@ -37,7 +52,7 @@
 
    ```text
    app_options/photoshop.exe:
-    ascii_mode: true
+     ascii_mode: true
    ```
 
 
@@ -65,3 +80,6 @@ patch:
 极速入门配置：https://www.jianshu.com/p/46fb3049e322
 
 sirls:http://sirlis.cn/rime-shift-switch-zh-en/
+
+[来自一个小白的rime定制指南](https://www.zhihu.com/column/c_1176886232608600064)
+
