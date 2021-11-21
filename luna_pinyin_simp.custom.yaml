@@ -1,4 +1,5 @@
 patch:
   "punctuator/import_preset" : symbols
   "recognizer/patterns/punct": "^/([A-Z|a-z]*|[0-9]|10)$"
-  "switches/@0/reset": 1
+  # "switches/@0/reset": 1
+  "punctuator/import_preset": lostsunset_symbols

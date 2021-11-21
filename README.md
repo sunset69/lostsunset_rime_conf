@@ -78,6 +78,18 @@ patch:
 -   输入 `/sx` 直接给出常用数学符号，如 ±, ÷ 等。
 -   输入 `/jh` 直接给出一些特殊符号，如 ■，□，?，? 等。
 
+### 3）使用自定义特殊字符
+
+>   将软件目录中`Rime\weasel-0.14.3\data\symbols.yaml`复制到用户配置文件夹，并改名。例如`xxx.yaml`
+>
+>   以下配置lostsunset_symbols换为xxx.yaml的xxx(不加yaml)
+
+```yaml
+"punctuator/import_preset": lostsunset_symbols
+```
+
+
+
 ## 参考
 
 极速入门配置：https://www.jianshu.com/p/46fb3049e322
