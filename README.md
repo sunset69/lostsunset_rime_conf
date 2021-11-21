@@ -17,14 +17,28 @@
 >   -   输入框显示字体及其字号
 >   -   输入框皮肤
 >   -   输入框横向显示
+>   -   软件中默认中/英文模式
 
 -   `"style/color_scheme": aqua`：设置主题
+
 -   `"style/font_face": "Microsoft YaHei" `：设置字体
+
 -   `"style/font_point": 15 `：设置字体大小
+
 -   `"style/horizontal": true` ：false为候选框竖排，true为候选框横排（默认垂直方向）
--   `"style/display_tray_icon": false`
+
+-   `"style/display_tray_icon": false`：托盘的图标
+
 -   `"style/inline_preedit": false`
+
 -   `"style/fullscreen": false`
+
+-   软件中默认英文模式
+
+   ```text
+   app_options/photoshop.exe:
+    ascii_mode: true
+   ```
 
 
 
