@@ -1,0 +1,26 @@
+customization:
+  distribution_code_name: Weasel
+  distribution_version: 0.14.3
+  generator: "Rime::SwitcherSettings"
+  modified_time: "Sun Nov 21 11:31:56 2021"
+  rime_version: 1.5.3
+patch:
+  menu/page_size: 5
+  schema_list:
+    - {schema: luna_pinyin_simp}
+  ascii_composer/switch_key: 
+    Caps_Lock: clear
+    Shift_L: commit_code
+    # Control_L: commit_code
+    Shift_R: inline_ascii
+    # Control_R: inline_ascii
+  key_binder/bindings:
+    - {accept: "Control+Shift+1", select: noop, when: always}
+    - {accept: "bracketleft", send: Page_Up, when: paging}
+    - {accept: "bracketright", send: Page_Down, when: has_menu}
+    - {accept: semicolon, send: 2, when: has_menu}
+    - {accept: apostrophe, send: 3, when: has_menu}
+    - {accept: comma, send: Page_Up, when: paging}
+    - {accept: period, send: Page_Down, when: has_menu}
+    # - {accept: "Control+p", send: Up, when: composing}
+    # - {accept: "Control+n", send: Down, when: composing}
